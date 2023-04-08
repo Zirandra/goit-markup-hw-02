@@ -93,7 +93,7 @@ color: var(--slate-bodytext-color);
         cursor: pointer;
 }
 .portfolio-button :hover, .portfolio-button :focus {
-    color: var(--white-header-teamcard-background;
+    color: var(--white-header-teamcard-background);
     background-color: var(--CTAs-hover-focus);
 }
 .portfolio-picture-item {
