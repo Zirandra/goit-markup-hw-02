@@ -14,7 +14,7 @@
 }
 body {
 font-family: "Roboto", sans-serif;
-color: var(--slate-bodytext-color);
+color: var(--modal-background);
 }
 .list {
     list-style: none;
