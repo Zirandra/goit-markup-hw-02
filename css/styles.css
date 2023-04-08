@@ -14,7 +14,7 @@
 }
 body {
 font-family: "Roboto", sans-serif;
-color: var(--modal-background);
+color: var(--slate-bodytext-color);
 }
 .list {
     list-style: none;
@@ -55,6 +55,7 @@ color: var(--modal-background);
 .header-menu-item {}
 
 .header-menu-link {
+    font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -103,13 +104,13 @@ color: var(--modal-background);
 .portfolio-picture-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--shadows-navy-blue);
 }
 .portfolio-picture-text {
         font-size: 16px;
-        line-height: 1.5x;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--slate-bodytext-color);
 }
@@ -121,7 +122,7 @@ color: var(--modal-background);
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--links-iris-color);
@@ -131,7 +132,7 @@ color: var(--modal-background);
 font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.2px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--shadows-navy-blue);
@@ -140,7 +141,7 @@ font-family: 'Raleway', sans-serif;
 .footer-text {
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--cloud-light-mode-backgrounds);
 }
