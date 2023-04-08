@@ -73,6 +73,60 @@ color: var(--slate-bodytext-color);
 .header-adress-link :hover, .header-adress-link :focus {
     color: var(--CTAs-hover-focus);
 }
+.hero {
+    background-color: var(--shadows-navy-blue);
+}
+.hero-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--white-header-teamcard-background);
+}
+.hero-button {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: var(--white-header-teamcard-background);
+        background-color: var(--links-iris-color);
+
+}
+.goals {
+
+}
+
+.hidden-title {}
+
+.goals-list {}
+.goals-item {
+}
+.goals-title {}
+.goals-text {}
+
+.about {}
+.about-title {}
+.about-list {}
+.about-item {}
+.team {}
+.team-title{}
+.team-list {}
+.team-item {}
+.team-name{}
+.team-job{}
+
+
+
+
+
+
+
 
 .portfolio {}
 
