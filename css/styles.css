@@ -57,15 +57,16 @@ background-color: var(--white-header-teamcard-background);
 
 .header-menu-link {
     font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--slate-bodytext-color);
-        color: var();
+        color: var(--shadows-navy-blue)
 }
 
-.header-adress {}
+.header-adress {
+font-style: normal;
+}
 
 .header-adress-list {}
 
