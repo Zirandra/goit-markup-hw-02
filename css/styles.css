@@ -65,7 +65,12 @@ background-color: var(--white-header-teamcard-background);
 }
 
 .header-adress {
-font-style: normal;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-bodytext-color);
 }
 
 .header-adress-list {}
@@ -79,7 +84,7 @@ font-style: normal;
     background-color: var(--shadows-navy-blue);
 }
 .hero-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif ;
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
@@ -97,12 +102,11 @@ font-style: normal;
         align-items: center;
         letter-spacing: 0.04em;
         color: var(--white-header-teamcard-background);
-        background-color: var(--links-iris-color);
+        background-color: var(--CTAs-hover-focus);
+        cursor: pointer;
 
 }
-.goals {
-
-}
+.goals {}
 
 .hidden-title {}
 
