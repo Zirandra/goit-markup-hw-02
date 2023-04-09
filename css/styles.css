@@ -223,7 +223,7 @@ background-color: var(--white-header-teamcard-background);
     background-color: var(--shadows-navy-blue);
 }
 
-.footer-logo link {
+.footer-logo {
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
