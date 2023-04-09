@@ -104,7 +104,9 @@ background-color: var(--white-header-teamcard-background);
         color: var(--white-header-teamcard-background);
         background-color: var(--links-iris-color);
         cursor: pointer;
-
+}
+.hero-button :hover, .hero-button {
+    color: var(--CTAs-hover-focus);
 }
 .goals {}
 
@@ -131,7 +133,7 @@ background-color: var(--white-header-teamcard-background);
 .about-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -139,19 +141,22 @@ background-color: var(--white-header-teamcard-background);
 }
 .about-list {}
 .about-item {}
+
 .team {
     background-color: var(--cloud-light-mode-backgrounds);
 }
 .team-title{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.1px;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--shadows-navy-blue);
 }
-.team-list {}
+.team-list {
+    background-color: var(--white-header-teamcard-background);
+}
 .team-item {}
 .team-name{
     font-weight: 500;
@@ -188,13 +193,14 @@ background-color: var(--white-header-teamcard-background);
         cursor: pointer;
 }
 .portfolio-button :hover, .portfolio-button :focus {
-    color: var(--white-header-teamcard-background);
+    color: var(--white-header-teamcard-background) ;
     background-color: var(--CTAs-hover-focus);
 }
 .portfolio-picture-item {
    border: 1px solid;
    border-color: var(--cornflower); 
 }
+.portfolio-link {}
 .portfolio-picture-title {
         font-weight: 500;
         font-size: 20px;
@@ -220,16 +226,15 @@ background-color: var(--white-header-teamcard-background);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--links-iris-color);
-
 }
 .footer-logo-studio {
 font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 18;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--shadows-navy-blue);
+    color: var(--cloud-light-mode-backgrounds);
 }
 
 .footer-text {
