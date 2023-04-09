@@ -69,18 +69,21 @@ background-color: var(--white-header-teamcard-background);
 }
 .header-adress {
     font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate-bodytext-color);
 }
 
 .header-adress-list {}
 
 .header-adress-item {}
 
-.header-adress:hover, .header-adress:focus {
+.header-adress-link {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-bodytext-color)
+}
+
+.header-adress-link:hover, .header-adress-link:focus {
     color: var(--CTAs-hover-focus);
 }
 .hero {
