@@ -53,7 +53,9 @@ background-color: var(--white-header-teamcard-background);
 
 .header-menu-list {}
 
-.header-menu-item {}
+.header-menu-item {
+    color: var(--hero-image-background);
+}
 
 .header-menu-link {
     font-style: normal;
