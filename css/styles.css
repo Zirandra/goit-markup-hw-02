@@ -54,7 +54,6 @@ background-color: var(--white-header-teamcard-background);
 .header-menu-list {}
 
 .header-menu-item {
-    color: var(--hero-image-background);
 }
 
 .header-menu-link {
@@ -81,7 +80,7 @@ background-color: var(--white-header-teamcard-background);
 
 .header-adress-item {}
 
-.header-adress-link:hover, .header-adress-link:focus {
+.header-adress:hover, .header-adress:focus {
     color: var(--CTAs-hover-focus);
 }
 .hero {
@@ -162,9 +161,7 @@ background-color: var(--white-header-teamcard-background);
         color: var(--shadows-navy-blue);
 }
 .team-list {}
-.team-item {
-    background-color: var(--white-header-teamcard-background);
-}
+.team-item {}
 .team-name{
     font-weight: 500;
         font-size: 20px;
@@ -199,7 +196,7 @@ background-color: var(--white-header-teamcard-background);
         border: none;
         cursor: pointer;
 }
-.portfolio-button :hover, .portfolio-button :focus {
+.portfolio-button:hover, .portfolio-button:focus {
     color: var(--white-header-teamcard-background) ;
     background-color: var(--CTAs-hover-focus);
 }
