@@ -94,7 +94,7 @@ background-color: var(--white-header-teamcard-background);
         color: var(--white-header-teamcard-background);
 }
 .hero-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -102,7 +102,7 @@ background-color: var(--white-header-teamcard-background);
         align-items: center;
         letter-spacing: 0.04em;
         color: var(--white-header-teamcard-background);
-        background-color: var(--CTAs-hover-focus);
+        background-color: var(--links-iris-color);
         cursor: pointer;
 
 }
@@ -113,25 +113,59 @@ background-color: var(--white-header-teamcard-background);
 .goals-list {}
 .goals-item {
 }
-.goals-title {}
-.goals-text {}
-
+.goals-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--shadows-navy-blue);
+}
+.goals-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-bodytext-color);
+}
 .about {}
-.about-title {}
+.about-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--hero-image-background);
+}
 .about-list {}
 .about-item {}
-.team {}
-.team-title{}
+.team {
+    background-color: var(--cloud-light-mode-backgrounds);
+}
+.team-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--shadows-navy-blue);
+}
 .team-list {}
 .team-item {}
-.team-name{}
-.team-job{}
-
-
-
-
-
-
+.team-name{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--shadows-navy-blue);
+}
+.team-job{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-bodytext-color);
+}
 
 
 .portfolio {}
