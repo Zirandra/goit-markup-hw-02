@@ -77,8 +77,8 @@ background-color: var(--white-header-teamcard-background);
 
 .header-adress-item {}
 
-.header-adress-link :hover, .header-adress-link :focus {
-    color: var(--CTAs-hover-focus);
+.header-adress-link:hover, .header-adress-link:focus {
+    background-color: var(--CTAs-hover-focus);
 }
 .hero {
     background-color: var(--shadows-navy-blue);
@@ -105,8 +105,8 @@ background-color: var(--white-header-teamcard-background);
         background-color: var(--links-iris-color);
         cursor: pointer;
 }
-.hero-button :hover, .hero-button {
-    color: var(--CTAs-hover-focus);
+.hero-button:hover, .hero-button:focus {
+    background-color: var(--CTAs-hover-focus);
 }
 .goals {}
 
@@ -218,7 +218,7 @@ background-color: var(--white-header-teamcard-background);
     background-color: var(--shadows-navy-blue);
 }
 
-.footer-logo-link {
+.footer-logo link {
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
