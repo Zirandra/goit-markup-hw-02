@@ -164,7 +164,9 @@ font-weight: 400;
 }
 .team-list {
 }
-.team-item {}
+.team-item {
+    color: var(--white-header-teamcard-background);
+}
 .team-name{
     font-weight: 500;
         font-size: 20px;
