@@ -63,7 +63,9 @@ background-color: var(--white-header-teamcard-background);
         letter-spacing: 0.02em;
         color: var(--shadows-navy-blue)
 }
-
+.header-menu-link:hover, .header-menu-link:focus{
+    color: var(--CTAs-hover-focus);
+}
 .header-adress {
     font-style: normal;
         font-weight: 400;
@@ -105,8 +107,11 @@ background-color: var(--white-header-teamcard-background);
         background-color: var(--links-iris-color);
         cursor: pointer;
 }
-.hero-button:hover, .hero-button:focus {
+.hero-button:hover {
     background-color: var(--CTAs-hover-focus);
+}
+.hero-button:focus {
+    background-color: var(--CTAs-hover-focus) ;
 }
 .goals {}
 
