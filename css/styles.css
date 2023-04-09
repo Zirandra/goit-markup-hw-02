@@ -61,7 +61,7 @@ background-color: var(--white-header-teamcard-background);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--shadows-navy-blue)
+        color: var(--slate-bodytext-color)
 }
 .header-menu-link:hover, .header-menu-link:focus{
     color: var(--CTAs-hover-focus);
@@ -80,7 +80,7 @@ background-color: var(--white-header-teamcard-background);
 .header-adress-item {}
 
 .header-adress-link:hover, .header-adress-link:focus {
-    background-color: var(--CTAs-hover-focus);
+    color: var(--CTAs-hover-focus);
 }
 .hero {
     background-color: var(--shadows-navy-blue);
@@ -159,10 +159,10 @@ background-color: var(--white-header-teamcard-background);
         text-transform: capitalize;
         color: var(--shadows-navy-blue);
 }
-.team-list {
+.team-list {}
+.team-item {
     background-color: var(--white-header-teamcard-background);
 }
-.team-item {}
 .team-name{
     font-weight: 500;
         font-size: 20px;
